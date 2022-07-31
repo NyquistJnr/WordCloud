@@ -79,8 +79,8 @@ def calculate_frequencies(file_contents):
     
     # LEARNER CODE START HERE
     result = {}
-    a = file_contents.split()
-    for word in a:
+    fileDetail = file_contents.split()
+    for word in fileDetail:
         if word in uninteresting_words:
             pass
         else:
